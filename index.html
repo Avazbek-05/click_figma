@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLICK</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- sidebar start -->
+    <input type="checkbox" id="sidebar" class="none" />
+    <div class="sidebar">
+      <label for="sidebar" class="sidebar-overlay"></label>
+      <div class="sidebar-content">
+        <div class="sidebar-header">
+          <a href="/">
+            <img src="./svg/logo.svg" alt="logo" class="logo" />
+          </a>
+          <label for="sidebar" class="click">
+            <img src="./svg/close.svg" alt="close.svg" />
+          </label>
+        </div>
+        <div class="sidebar-body">
+          <details class="sidebar__details">
+            <summary class="sidebar__summary click">Каталог</summary>
+            <ul class="sidebar__details__list">
+              <li>
+                <a class="sidebar__details__link" href="#">Доставка </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Услуги</a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Условия </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </details>
+          <!-- 2 -->
+          <details class="sidebar__details">
+            <summary class="sidebar__summary click">Товары в наличии</summary>
+            <ul class="sidebar__details__list">
+              <li>
+                <a class="sidebar__details__link" href="#">Доставка </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Услуги</a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Условия </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </details>
+          <!-- 3 -->
+
+          <details class="sidebar__details">
+            <summary class="sidebar__summary click">Скидки</summary>
+            <ul class="sidebar__details__list">
+              <li>
+                <a class="sidebar__details__link" href="#">Доставка </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Услуги</a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Условия </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </details>
+          <!-- 4 -->
+          <details class="sidebar__details">
+            <summary class="sidebar__summary click">Популярное</summary>
+            <ul class="sidebar__details__list">
+              <li>
+                <a class="sidebar__details__link" href="#">Доставка </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Услуги</a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Условия </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </details>
+          <!-- 5 -->
+          <details open class="sidebar__details">
+            <summary class="sidebar__summary click">Вдохновение</summary>
+            <ul class="sidebar__details__list">
+              <li>
+                <a class="sidebar__details__link" href="#">Доставка </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Услуги</a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Условия </a>
+              </li>
+              <li>
+                <a class="sidebar__details__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </div>
+    <!-- sidebar end -->
+
+    <header class="header">
+      <div class="header_item">
+        <div class="container">
+          <div class="header_container">
+            <img src="./svg/logo.svg" alt="logo" class="logo" />
+            <input type="checkbox" id="burger" class="none" />
+            <label for="burger" class="burger">
+              <i class="fa-solid fa-bars burger-open"></i>
+              <i class="fa-solid fa-xmark burger-close"></i>
+            </label>
+            <label for="burger" class="sidebar-overlay header-overlay"></label>
+            <div class="header-content-wrapper">
+              <nav class="nav">
+                <ul class="nav_list">
+                  <li class="nav_item">
+                    <a class="nav_link" href="#">Каталог</a>
+                  </li>
+                  <li class="nav_item">
+                    <a class="nav_link" href="#">Доставка </a>
+                  </li>
+                  <li class="nav_item">
+                    <a class="nav_link" href="#">Условия</a>
+                  </li>
+                  <li class="nav_item">
+                    <a class="nav_link" href="#"> Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="content">
+                <div class="content_item">
+                  <a href="tel:+ 375 736 463 64 72 ">+ 375 736 463 64 72 </a>
+                  <span>/</span>
+                  <a href="tel: + 375 736 463 6472"> + 375 736 463 6472</a>
+                </div>
+                <a class="content_link" href="#"><p>Заказать звонок</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_list">
+        <div class="container">
+          <div class="header_list_container">
+            <div class="header_list_icon">
+              <label for="sidebar" class="click">
+                <img src="./svg/icon-1.svg" alt="icon-1" />
+              </label>
+              <div class="header_list_icon_1">
+                <input placeholder="Что желаете найти?" type="text" />
+                <img class="icon-link" src="./svg/icon-2.svg" alt="" />
+              </div>
+            </div>
+            <div class="header_list_right">
+              <a href="#">Вставить список покупок</a>
+              <div class="header_icon">
+                <img src="./svg/icon-3.svg" alt="icon-3" />
+                <img src="./svg/icon-5.svg" alt="icon-5" />
+                <img src="./svg/icon-4.svg" alt="icon-4" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- showcase start -->
+      <section class="showcase">
+        <div class="container showcase_container">
+          <div class="showcase_left">
+            <h1>Мебель на любой вкус!</h1>
+            <ul class="showcase_list">
+              <li class="showcase_list">
+                Худи, чашки для горячего чая и термосы
+              </li>
+              <li class="showcase_list">Eлочные игрушки, брелочки</li>
+              <li class="showcase_list">Начало списка вещей, которые можно</li>
+            </ul>
+            <div class="showcase_btns">
+              <button class="btn">Перейти в каталог</button>
+              <button class="btn btn1">Внести список артикулов</button>
+            </div>
+          </div>
+          <div class="showcase_right">
+            <img src="./img/Mebel.png" alt="mebel" />
+          </div>
+        </div>
+      </section>
+      <!-- showcase end -->
+
+      <!-- about start -->
+      <section class="about">
+        <div class="container">
+          <div class="about_txt">
+            <h2 class="title">Популярные категории</h2>
+            <p class="text">Все категории</p>
+          </div>
+          <div class="about_item">
+            <div class="about-1">
+              <img src="./img/klipartz 1.png" alt="1" />
+              <p class="text">Диваны</p>
+            </div>
+            <!-- 2 -->
+            <div class="about-1">
+              <img src="./img/klipartz2.png" alt="1" />
+              <p class="text">Спальная</p>
+            </div>
+            <!-- 3 -->
+            <div class="about-1">
+              <img src="./img/klipartz3.png" alt="1" />
+              <p class="text">Кухня</p>
+            </div>
+            <!-- 4 -->
+            <div class="about-1">
+              <img src="./img/klipartz4.png" alt="1" />
+              <p class="text">Для сада</p>
+            </div>
+            <!-- 5 -->
+            <div class="about-1">
+              <img src="./img/klipartz5.png" alt="1" />
+              <p class="text">Мебель</p>
+            </div>
+            <!-- 6 -->
+            <div class="about-1">
+              <img src="./img/klipartz6.png" alt="1" />
+              <p class="text">Гигиена</p>
+            </div>
+            <!-- 7 -->
+            <div class="about-1">
+              <img src="./img/klipartz7.png" alt="1" />
+              <p class="text">Товары для отдыха</p>
+            </div>
+            <!-- 8 -->
+            <div class="about-1">
+              <img src="./img/klipartz8.png" alt="1" />
+              <p class="text">Зеркала</p>
+            </div>
+            <!-- 9 -->
+            <div class="about-1">
+              <img src="./img/klipartz9.png" alt="1" />
+              <p class="text">Диваны</p>
+            </div>
+            <!-- 10 -->
+            <div class="about-1">
+              <img src="./img/klipartz10.png" alt="1" />
+              <p class="text">Кухня и бытовая тех..</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about end -->
+      <!-- hero start -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero_txt">
+            <h2 class="title">Популярные категории</h2>
+            <p class="text">Все категории</p>
+          </div>
+          <div class="hero_item">
+            <div class="hero-1">
+              <img class="hero-img" src="./img/skidka-img1.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">VINTER 2020 ВИНТЕР 2020</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">67 763,23 Br</span>
+                <h2 class="title">62 392,23</h2>
+                <div class="hero-select">
+                  <select>
+                    <option value="100">1шT</option>
+                    <option value="1200">2шT</option>
+                    <option value="1020">1шT</option>
+                    <option value="1004">1шT</option>
+                  </select>
+                  <img src="./svg/corzinka.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/skidka-img2.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">GLASIG ГЛАСИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">7 763,23 Br</span>
+                <h2 class="title">2 792,37 Br</h2>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/skidka-img3.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">STABBIG СТАБИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">763,23 Br</span>
+                <h2 class="title">392,3 Br</h2>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/skidka-img4.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">PÄRLBAND ПЭРЛЬБАНД</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">63,23 Br</span>
+                <h2 class="title">55,53 Br</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero end -->
+
+      <!-- card start -->
+      <section class="card">
+        <div class="container">
+          <div class="hero_txt">
+            <h2 class="title">Товары в наличии</h2>
+            <p class="text">Все товары в категории</p>
+          </div>
+          <div class="hero_item card-item">
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar1.png" alt="s" />
+              <div class="hero-icon">
+                <p class="text">VINTER 2020 ВИНТЕР 2020</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <h2 class="title">62 392,23 Br</h2>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar2.png" alt="s" />
+              <div class="hero-icon">
+                <p class="text">GLASIG ГЛАСИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <h2 class="title">2 792,37 Br</h2>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar3.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">STABBIG СТАБИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">763,23 Br</span>
+                <h2 class="title">392,3 Br</h2>
+                <div class="card-img">
+                  <div class="card-btn">
+                    <button>-</button>
+                    <p>1</p>
+                    <button>+</button>
+                  </div>
+                  <img src="./svg/corzinka.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar4.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">PÄRLBAND ПЭРЛЬБАНД</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <h2 class="title">55,53 Br</h2>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar5.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">STABBIG СТАБИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">763,23 Br</span>
+                <h2 class="title">392,3 Br</h2>
+                <div class="card-img">
+                  <div class="card-btn">
+                    <button>-</button>
+                    <p>1</p>
+                    <button>+</button>
+                  </div>
+                  <img src="./svg/corzinka.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar6.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">PÄRLBAND ПЭРЛЬБАНД</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <h2 class="title">55,53 Br</h2>
+              </div>
+            </div>
+            <!-- 7 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar7.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">PÄRLBAND ПЭРЛЬБАНД</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <h2 class="title">55,53 Br</h2>
+              </div>
+            </div>
+            <!-- 8 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar8.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">PÄRLBAND ПЭРЛЬБАНД</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <h2 class="title">55,53 Br</h2>
+              </div>
+            </div>
+            <!-- 9 c-->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar9.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">STABBIG СТАБИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">763,23 Br</span>
+                <h2 class="title">392,3 Br</h2>
+                <div class="card-img">
+                  <div class="card-btn">
+                    <button>-</button>
+                    <p>1</p>
+                    <button>+</button>
+                  </div>
+                  <img src="./svg/corzinka.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- 10 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar10.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">STABBIG СТАБИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">763,23 Br</span>
+                <h2 class="title">392,3 Br</h2>
+                <div class="card-img">
+                  <div class="card-btn">
+                    <button>-</button>
+                    <p>1</p>
+                    <button>+</button>
+                  </div>
+                  <img src="./svg/corzinka.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- 11 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar11.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">STABBIG СТАБИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">763,23 Br</span>
+                <h2 class="title">392,3 Br</h2>
+                <div class="card-img">
+                  <div class="card-btn">
+                    <button>-</button>
+                    <p>1</p>
+                    <button>+</button>
+                  </div>
+                  <img src="./svg/corzinka.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- 12 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/tavar12.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">STABBIG СТАБИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">763,23 Br</span>
+                <h2 class="title">392,3 Br</h2>
+                <div class="card-img">
+                  <div class="card-btn">
+                    <button>-</button>
+                    <p>1</p>
+                    <button>+</button>
+                  </div>
+                  <img src="./svg/corzinka.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- card end -->
+
+      <!-- ----- -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero_txt">
+            <h2 class="title">Популярные категории</h2>
+            <p class="text">Все категории</p>
+          </div>
+          <div class="hero_item">
+            <div class="hero-1">
+              <img class="hero-img" src="./img/skidka-img1.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">VINTER 2020 ВИНТЕР 2020</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">67 763,23 Br</span>
+                <h2 class="title">62 392,23</h2>
+                <div class="hero-select">
+                  <select>
+                    <option value="100">1шT</option>
+                    <option value="1200">2шT</option>
+                    <option value="1020">1шT</option>
+                    <option value="1004">1шT</option>
+                  </select>
+                  <img src="./svg/corzinka.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/skidka-img2.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">GLASIG ГЛАСИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">7 763,23 Br</span>
+                <h2 class="title">2 792,37 Br</h2>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/skidka-img3.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">STABBIG СТАБИГ</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">763,23 Br</span>
+                <h2 class="title">392,3 Br</h2>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="hero-1">
+              <img class="hero-img" src="./img/skidka-img4.png" alt="s" />
+              <div class="hero-icon">
+                <h3>12%</h3>
+                <p class="text">PÄRLBAND ПЭРЛЬБАНД</p>
+                <p class="text">Шкаф платяной 3-дверный 117x190 см</p>
+                <span class="hero-span">63,23 Br</span>
+                <h2 class="title">55,53 Br</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer_container">
+        <img class="footer-img" src="./svg/logo.svg" alt="logo" />
+        <div class="footer_item">
+          <div class="footer-1">
+            <h2 class="title">Информация</h2>
+            <p>
+              <a href="#"
+                >Все права защищены © 2015 интернет-магазин AIKEA.BY Беларусь.
+              </a>
+            </p>
+            <p>
+              <a href="#"
+                >УНП 191828159 ИП Парейко В.С., регистрационный номер в торговом
+                реестре 158299
+              </a>
+            </p>
+            <p><a href="#">Политика конфиденциальности</a></p>
+          </div>
+          <div class="footer-1">
+            <h2 class="title">Меню</h2>
+            <p><a href="#">Главная | Каталог | Товары в наличии</a></p>
+            <p><a href="#">Скидки | Популярное | Вдохновение</a></p>
+            <p><a href="#">Доставка | Услуги | Условия</a></p>
+            <p><a href="#">Контакты | Вставить | Cписок покупок</a></p>
+            <p><a href="#">Корзина | Личный кабинет | Избранное</a></p>
+          </div>
+          <div class="footer-1">
+            <h2 class="title">Контакты</h2>
+            <p><a href="#">г.Минск</a></p>
+            <p><a href="#">Ул. Первомайская, Д. 1, Кв. 43</a></p>
+            <p><a href="tel:+ 375 434 847 28 84">+ 375 434 847 28 84</a></p>
+            <p><a href="tel:+ 375 448 473 09 48">+ 375 448 473 09 48</a></p>
+            <p>
+              <a href="mailto:youremail@example.com">youremail@example.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
